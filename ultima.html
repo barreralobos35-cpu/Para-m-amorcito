@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lo último que quería decirte 💙</title>
+<style>
+:root{--bg:#06101d;--card:rgba(12,25,43,.78);--line:rgba(167,210,255,.16);--text:#f4f8ff;--muted:#aebfd3;--blue:#79bcff;--blue2:#b7dcff;--soft:#0b1d32}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.8;background:radial-gradient(circle at 15% 0%,#17385d 0,transparent 32%),radial-gradient(circle at 90% 25%,#102b49 0,transparent 28%),var(--bg);overflow-x:hidden}body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.08;background-image:radial-gradient(#fff 1px,transparent 1px);background-size:76px 76px}.wrap{width:min(900px,92%);margin:auto}.hero{min-height:100vh;display:grid;place-items:center;text-align:center;padding:55px 0}.eyebrow,.label{text-transform:uppercase;letter-spacing:.18em;font-size:.72rem;color:var(--blue2)}.heart{font-size:5rem;filter:drop-shadow(0 0 28px rgba(121,188,255,.34));animation:pulse 3s ease-in-out infinite}h1{font-size:clamp(2.4rem,9vw,5.5rem);line-height:1.02;margin:18px 0}h2{font-size:clamp(1.65rem,5vw,2.7rem);line-height:1.15;margin-top:10px}h3{line-height:1.25}.lead{max-width:690px;margin:auto;color:var(--muted);font-size:1.08rem}.card{background:var(--card);border:1px solid var(--line);border-radius:30px;padding:32px;margin:24px 0;box-shadow:0 20px 80px rgba(0,0,0,.2);backdrop-filter:blur(16px)}.center{text-align:center}.quote{font-size:1.22rem;color:var(--blue2);font-style:italic}.tiny{font-size:.82rem;color:var(--muted)}button,.btn{border:0;border-radius:999px;padding:14px 22px;background:linear-gradient(135deg,#9bd2ff,#5d9fe9);color:#06101d;font-weight:800;cursor:pointer;text-decoration:none;display:inline-block;margin:8px 5px}.ghost{background:transparent;color:var(--blue2);border:1px solid var(--line)}#song{display:none}.hidden{display:none}.reveal{animation:rise .8s ease both}.divider{height:1px;background:var(--line);margin:34px 0}.letter{min-height:90px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.mini{padding:22px;border:1px solid var(--line);border-radius:23px;background:rgba(5,16,29,.35)}.memory{border-left:3px solid var(--blue);padding-left:18px;margin:24px 0}.big{font-size:1.45rem;color:var(--blue2);font-weight:700}.chapter{display:grid;grid-template-columns:54px 1fr;gap:18px;align-items:start}.number{width:50px;height:50px;border-radius:50%;border:1px solid var(--line);display:grid;place-items:center;color:var(--blue2);font-weight:800}.final{padding:60px 0 110px}.glow{color:var(--blue2);text-shadow:0 0 22px rgba(121,188,255,.25)}.note{padding:17px 20px;border-radius:18px;background:rgba(121,188,255,.07);border:1px solid var(--line)}.secret{display:none}.secret.show{display:block;animation:rise .8s ease both}.choice{margin:8px}.progress{height:4px;background:rgba(255,255,255,.08);border-radius:99px;overflow:hidden;margin:24px 0}.bar{height:100%;width:0;background:var(--blue);transition:width .6s ease}@keyframes pulse{50%{transform:scale(1.07)}}@keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}@media(max-width:650px){.card{padding:23px}.grid{grid-template-columns:1fr}.chapter{grid-template-columns:44px 1fr;gap:12px}.number{width:42px;height:42px}}
+</style>
+</head>
+<body>
+<main class="wrap">
+<section class="hero">
+<div>
+<div class="heart">💙</div>
+<div class="eyebrow">Último capítulo · por ahora</div>
+<h1>Esta vez sí quería<br>decírtelo todo.</h1>
+<p class="lead">Si llegaste hasta aquí, entonces ya viste bastante de lo que quería hacerte. Pero todavía me faltaba una parte: decirte por qué, después de tantas palabras, todavía sentía que no era suficiente.</p>
+<button onclick="startFinal()">Abrir este último capítulo 💙</button>
+<p id="music" class="tiny">Toca el botón para entrar y dejar que la canción nos acompañe.</p>
+<audio id="song" preload="auto"><source src="cancion.mp3" type="audio/mpeg"><source src="cancion.m4a" type="audio/mp4"></audio>
+</div>
+</section>
+
+<section id="begin" class="card center">
+<div class="label">Antes de seguir</div>
+<h2>No hice esto para que dijeras “qué bonito”.</h2>
+<p>Obviamente sí quería que te pareciera bonito.</p>
+<p>Pero quería algo más.</p>
+<p>Quería que cuando llegaras al final pudieras mirar todo y entender que detrás de cada parte hubo una persona pensando: <b>“¿cómo puedo hacer que esto se sienta como algo nuestro?”</b></p>
+<p class="quote">No quería hacerte un regalo que solamente pudieras abrir. Quería hacerte uno que pudieras sentir.</p>
+</section>
+
+<section class="card chapter">
+<div class="number">01</div><div>
+<div class="label">Lo que aprendí</div><h2>Que quererte también está en los detalles.</h2>
+<p>Antes quizá pensaba que para demostrarle a alguien cuánto lo quieres necesitas hacer algo enorme.</p>
+<p>Y después entendí que también está en acordarte de cosas pequeñas, en pensar qué le gustaría, en guardar una frase porque te recordó a esa persona, en querer sorprenderla aunque no haya ninguna fecha especial.</p>
+<p>Eso fue lo que intenté hacer aquí.</p>
+</div></section>
+
+<section class="card chapter">
+<div class="number">02</div><div>
+<div class="label">Algo muy mío</div><h2>Por eso está el azul.</h2>
+<p>Podía haber elegido cualquier color. Pero elegí este porque es mi favorito y porque quería que hubiera algo que fuera completamente mío dentro de todo lo que estaba haciendo para ti.</p>
+<p>Y ahora cada vez que veo este corazón siento que ya no es solamente “mi color favorito”. También me recuerda a ti.</p>
+<p class="quote">💙 Una pequeña parte de mí escondida en todo esto.</p>
+</div></section>
+
+<section class="card chapter">
+<div class="number">03</div><div>
+<div class="label">Algo que no quería olvidar</div><h2>Que ya formas parte de una parte muy importante de mi vida.</h2>
+<p>Que hayas conocido a mis papás no era algo que yo quisiera dejar perdido entre todas las demás cosas.</p>
+<p>Para mí tiene un significado especial. Y todavía más porque eres la primera persona que realmente les ha caído bien de esa manera.</p>
+<p>Puede parecer una cosa sencilla escrita en una página, pero para mí no lo es.</p>
+<p>Es una de esas cosas que quiero recordar.</p>
+</div></section>
+
+<section class="card">
+<div class="label">04 · Lo que quiero vivir</div>
+<h2>No quiero que seas solamente parte de mis recuerdos.</h2>
+<p>Quiero que seas parte de muchas de las cosas que todavía no han pasado.</p>
+<div class="grid">
+<div class="mini"><h3>🌎 Lugares</h3><p>Quiero conocer lugares contigo y tener historias que empiecen con “¿te acuerdas cuando fuimos…?”</p></div>
+<div class="mini"><h3>🎓 Etapas</h3><p>Quiero verte cumplir cosas y que tú también me veas cumplir las mías.</p></div>
+<div class="mini"><h3>📸 Momentos</h3><p>Quiero fotos que todavía no existen y recuerdos que todavía no sabemos que serán importantes.</p></div>
+<div class="mini"><h3>🏠 Días normales</h3><p>También quiero esos días que no parecen especiales hasta que pasa el tiempo y se vuelven nuestros favoritos.</p></div>
+</div>
+<p class="quote">Quiero que seas la primera y la única mujer con la que quiera descubrir tantas cosas importantes de mi vida.</p>
+</section>
+
+<section class="card">
+<div class="label">05 · Algo que quiero que entiendas</div>
+<h2>No necesito que todo sea perfecto.</h2>
+<p>Quiero conocerte también en los días en que estés cansada, cuando algo te preocupe, cuando no tengas ganas de hablar o cuando simplemente quieras estar tranquila.</p>
+<p>Porque no quiero solamente los momentos fáciles. Quiero aprender a estar en los momentos reales.</p>
+<p>Y eso para mí también es querer a alguien.</p>
+</section>
+
+<section class="card">
+<div class="label">06 · Una pequeña confesión</div>
+<h2>Me gusta imaginarte en mi futuro.</h2>
+<p>No porque quiera tener todo decidido desde ahora.</p>
+<p>Sino porque cuando pienso en cosas que me gustaría vivir, muchas veces apareces tú sin que siquiera tenga que intentarlo.</p>
+<p>Un viaje. Una meta. Una celebración. Una tarde cualquiera. Algo que todavía ni siquiera sé nombrar.</p>
+<p class="big">De alguna manera, ya te estoy haciendo espacio.</p>
+</section>
+
+
+<section class="card chapter">
+<div class="number">07</div><div>
+<div class="label">También quiero ser sincero contigo</div>
+<h2>No siempre sé querer de la manera perfecta.</h2>
+<p>Y creo que después de todo lo que te he escrito, también tenía que dejar espacio para decirte algo que es verdad: <b>a veces me enojo con mucha facilidad.</b> A veces puedo ser muy celoso, puedo pensar de más las cosas y puedo reaccionar de una manera que después quisiera haber hecho diferente.</p>
+<p>No te digo esto para justificarme ni para hacer como que esas cosas no importan. Al contrario. Te lo digo porque te quiero lo suficiente como para reconocer las partes de mí que todavía tengo que aprender a manejar mejor.</p>
+<p>Estoy aprendiendo que amarte no significa solamente sentir muchísimo. También significa aprender a hablar mejor, confiar más, escuchar, respetarte y no dejar que un momento de enojo diga cosas que realmente no siento.</p>
+<p class="quote">Y aunque tenga cosas que mejorar, hay algo de lo que nunca he dudado: te amo con toda mi alma.</p>
+<p>Quiero que también sepas algo que para mí es todavía más importante: <b>no quiero que mis enojos o mis celos te hagan pensar que mi amor por ti es menos grande.</b> No lo son. Son cosas mías que estoy aprendiendo a manejar, porque no quiero que mis defectos terminen lastimando algo que para mí vale muchísimo.</p>
+<p>Voy a equivocarme alguna vez, porque sigo aprendiendo. Pero quiero que cada vez que me equivoque también exista en mí la voluntad de reconocerlo, cambiarlo y cuidarte mejor.</p>
+<p class="big">Te amo con toda mi alma, y pase lo que pase, jamás voy a dejar de amarte.</p>
+</div></section>
+
+<section class="card center">
+<div class="label">08 · Una verdad sencilla</div>
+<h2>Te amo incluso cuando no sé cómo decirlo.</h2>
+<p>Hay días en los que probablemente no encuentro las palabras correctas. Hay días en los que mi forma de demostrarlo no sale como yo quisiera.</p>
+<p>Pero detrás de mis enojos, de mis celos, de mis nervios y de todas esas cosas que todavía estoy aprendiendo a manejar, hay algo que permanece.</p>
+<p class="big">Mi amor por ti.</p>
+<p>No quiero que confundas mis defectos con falta de amor. Quiero trabajar en ellos precisamente porque te amo y porque quiero que lo nuestro se sienta bonito, seguro y verdadero.</p>
+</section>
+
+<section class="card">
+<div class="label">09 · Lo que sí quiero prometerte</div>
+<h2>No una perfección que no existe. Algo mucho más real.</h2>
+<div class="grid">
+<div class="mini"><h3>🫶 Escucharte</h3><p>Quiero aprender a escucharte incluso cuando lo que tengas que decirme no sea lo que quiero oír.</p></div>
+<div class="mini"><h3>💙 Cuidar lo nuestro</h3><p>Quiero cuidar nuestra relación con hechos, no solamente con palabras bonitas.</p></div>
+<div class="mini"><h3>🌙 Aprender</h3><p>Quiero reconocer cuando me equivoco y aprender a hacerlo mejor la próxima vez.</p></div>
+<div class="mini"><h3>♾️ Elegirte</h3><p>Quiero seguir construyendo contigo, no porque todo vaya a ser perfecto, sino porque tú vales el esfuerzo.</p></div>
+</div>
+</section>
+
+<section class="card center">
+<div class="label">10 · Haz una pausa</div>
+<h2>Antes de abrir lo siguiente…</h2>
+<p>Quiero que mires todo lo que llevas recorrido en estas páginas.</p>
+<p>Primero fueron razones. Después recuerdos. Después planes. Y ahora llegaste hasta aquí.</p>
+<p>Así que esta vez no quiero escribirte una carta inmediatamente.</p>
+<p class="quote">Quiero que tú elijas qué quieres leer primero.</p>
+<div>
+<button class="ghost choice" onclick="choice(1)">💌 Lo que siento</button>
+<button class="ghost choice" onclick="choice(2)">🌙 Lo que pienso</button>
+<button class="ghost choice" onclick="choice(3)">♾️ Lo que espero</button>
+</div>
+<div id="choiceBox" class="mini hidden"></div>
+</section>
+
+<section class="card">
+<div class="label">11 · Una carta</div>
+<h2>Si pudiera sentarme contigo ahora mismo…</h2>
+<div id="letter" class="letter"><p>Probablemente al principio no sabría por dónde empezar.</p></div>
+<button onclick="nextLetter()">Seguir leyendo 💙</button>
+<div class="progress"><div id="bar" class="bar"></div></div>
+</section>
+
+<section class="card">
+<div class="label">12 · Lo que no quiero que olvides</div>
+<div class="memory"><p><b>No eres un detalle más.</b></p><p>Eres la persona para quien terminé haciendo todas estas páginas.</p></div>
+<div class="memory"><p><b>No eres una idea bonita.</b></p><p>Eres alguien que realmente está presente en mi vida.</p></div>
+<div class="memory"><p><b>Y esto no es una promesa de una vida perfecta.</b></p><p>Es solamente una forma de decirte que quiero seguir construyendo cosas contigo.</p></div>
+</section>
+
+<section class="card center">
+<div class="label">13 · La última sorpresa</div>
+<h2>Hay una última cosa que no quería escribir hasta el final.</h2>
+<p>Y ahora sí puedes abrirla.</p>
+<button onclick="finalReveal()">Abrirla 💙</button>
+<div id="final" class="secret">
+<div class="divider"></div>
+<div class="heart">💙</div>
+<h2>Gracias por ser tú.</h2>
+<p>No sé si existe una manera perfecta de explicarte todo lo que siento.</p>
+<p>Por eso hice esto.</p>
+<p>Para intentar convertir algunas de esas cosas que normalmente se quedan en mi cabeza en algo que tú pudieras leer, guardar y volver a abrir cuando quisieras.</p>
+<p>Y si después de todas estas páginas todavía me preguntas cuánto te quiero, probablemente tendría que empezar otra.</p>
+<p class="quote">Porque todavía me faltan palabras.</p>
+</div>
+</section>
+
+<section class="card center">
+<div class="label">14 · Y ahora sí</div>
+<h2>Quiero dejar de escribirlo y empezar a vivirlo.</h2>
+<p>Hay cosas que no quiero contar aquí porque prefiero que algún día podamos decir:</p>
+<p class="big">“Eso todavía no estaba en la página. Eso lo vivimos nosotros.”</p>
+<p>Quiero que existan recuerdos que no necesiten una pantalla para ser especiales.</p>
+<p>Quiero que esta página sea solamente una pequeña parte de todo lo que todavía nos falta.</p>
+</section>
+
+<section class="final center">
+<div class="card">
+<div class="heart">∞</div>
+<div class="eyebrow">Última página</div>
+<h1>Esto no termina aquí.</h1>
+<p class="lead">Solo termina esta parte del regalo.</p>
+<div class="divider"></div>
+<p class="quote">“100 razones escritas. Infinitas razones que todavía me faltan.”</p>
+<p>Gracias por leer hasta el final.</p>
+<p>Gracias por estar en mi vida y por conocer también las partes bonitas y las partes que todavía estoy aprendiendo a mejorar.</p>
+<p>Si alguna vez vuelvo a enojarme con facilidad o aparecen mis celos, quiero recordar que amarte también significa saber detenerme, hablarte con cariño y trabajar en mí.</p>
+<p class="big">Te amo con toda mi alma. Y mientras la vida me permita compartirla contigo, quiero seguir aprendiendo a amarte cada día mejor.</p>
+<p>Y si algún día vuelves a leer esto, quiero que recuerdes esa parte: no te prometo que nunca voy a equivocarme, pero sí quiero que nunca tengas que preguntarte si te amo. Porque incluso cuando me enoje, incluso cuando me gane el celo, incluso cuando no encuentre las palabras correctas, <b>mi amor por ti seguirá estando ahí.</b></p>
+<p class="quote">No sé qué nos traerá la vida, pero sí sé lo que siento hoy: te amo, te elijo y no quiero dejar de hacerlo.</p>
+<div class="divider"></div>
+<p class="tiny">Hecho por mí, para ti, con cariño y con demasiados pensamientos sobre nosotros.</p>
+<p><b>— Vic 💙</b></p>
+<a class="btn ghost" href="continuacion.html">Volver a la continuación</a>
+</div>
+</section>
+</main>
+<script>
+function startFinal(){const a=document.getElementById('song');const s=document.getElementById('music');a.volume=1;a.play().then(()=>{s.textContent='💙 Ahora sí. Quédate un ratito aquí.'}).catch(()=>{s.innerHTML='💙 <button class="ghost" onclick="playAgain(event)">🎵 Tocar la canción</button>'});document.getElementById('begin').scrollIntoView({behavior:'smooth'});}
+function playAgain(e){e.stopPropagation();document.getElementById('song').play().then(()=>document.getElementById('music').textContent='💙 Ahora sí. Quédate un ratito aquí.').catch(()=>{})}
+const choices={1:`Lo que siento: me importas muchísimo. Y una de las cosas que más me gusta de quererte es que no siento que tenga que inventar una versión bonita de mí para estar contigo. Quiero que conozcas al verdadero yo y aun así quiero seguir construyendo contigo.`,2:`Lo que pienso: muchas veces pienso en todas las cosas que todavía no hemos vivido. Y me da ilusión. Porque significa que nuestra historia todavía tiene muchísimas páginas en blanco.`,3:`Lo que espero: no espero una historia perfecta. Espero una historia nuestra. Una en la que podamos reírnos, aprender, equivocarnos, hablar, celebrar y seguir eligiéndonos en las cosas pequeñas.`};
+function choice(n){const b=document.getElementById('choiceBox');b.innerHTML='<h3>💙 Para ti</h3><p>'+choices[n]+'</p>';b.classList.remove('hidden');b.classList.remove('reveal');void b.offsetWidth;b.classList.add('reveal')}
+const letters=[`Si pudiera sentarme contigo ahora mismo, probablemente te miraría un rato antes de empezar. Porque hay cosas que cuando uno siente demasiado no sabe cómo explicar sin que parezcan pequeñas al decirlas.`,`Te diría que me gusta tenerte en mi vida. Que me gusta pensar en ti. Que me gusta imaginar planes y que, sin darme cuenta, muchas veces ya estás dentro de ellos.`,`Te diría también que no quiero que este regalo sea solamente algo bonito que viste una noche. Quiero que algún día lo abras de nuevo y te acuerdes de cómo te quería en este momento.`,`Y probablemente terminaría diciéndote algo muy sencillo: gracias. Gracias por ser parte de mi vida y por hacer que me den ganas de crear recuerdos que todavía ni siquiera existen.`,`Y sí… todavía me faltan muchísimas cosas por decirte. Pero algunas ya no quiero escribirlas. Quiero vivirlas contigo.`];let li=0;function nextLetter(){if(li<letters.length){const p=document.createElement('p');p.textContent=letters[li++];p.className='reveal';document.getElementById('letter').appendChild(p);document.getElementById('bar').style.width=(li/letters.length*100)+'%'}else{const p=document.createElement('p');p.innerHTML='<b>Esta parte ya no necesita más palabras. 💙</b>';document.getElementById('letter').appendChild(p)}}
+function finalReveal(){const x=document.getElementById('final');x.classList.add('show');x.scrollIntoView({behavior:'smooth',block:'center'})}
+for(let i=0;i<70;i++){const s=document.createElement('span');s.style.position='fixed';s.style.width='2px';s.style.height='2px';s.style.borderRadius='50%';s.style.background='#fff';s.style.opacity=(.1+Math.random()*.28);s.style.left=Math.random()*100+'%';s.style.top=Math.random()*100+'%';s.style.pointerEvents='none';s.style.animation='pulse '+(3+Math.random()*7)+'s infinite';s.style.animationDelay=Math.random()*5+'s';document.body.appendChild(s)}
+</script>
+</body>
+</html>
